@@ -11,6 +11,11 @@ We aim to provide the higher authorities responsible for sanitation and cleaning
 *	The inferred images are also stored in Amazon s3 with a reference of them in the database known as Flight ID.
 *	The images corresponding to the provided Flight ID can be viewed via our Web Application.
 
+
+![workflow ](https://user-images.githubusercontent.com/98334366/231242547-266eecc6-4fae-422b-8b7a-a9ef644ab339.png)
+
+
+
 ## Web Application
 
 ![Screenshot (103)](https://user-images.githubusercontent.com/98334366/230270095-b75152f5-23f6-4feb-adac-67a2d94b7122.png)
