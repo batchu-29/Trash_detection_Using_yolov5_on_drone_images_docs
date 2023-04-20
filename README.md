@@ -26,7 +26,7 @@ We aim to provide the higher authorities responsible for sanitation and cleaning
     *	Using WebSockets API we connect our application  with Ground Station and perform flight on selected mission from the available missions.
     *	The missions are fetched from pre created missions which are stored in database.
     * Launch is enabled after the drone is checked if it is already in flight and if it is connected or not
-IV.	After clicking on launch the selected mission is sent to ground station and drone is armed.
+	*  After clicking on launch the selected mission is sent to ground station and drone is armed.
 *	Tech stack:- ReactJs, JavaScript, Rest API,WebSockets.
 *	Repository:- https://github.com/batchu-29/Trash_detection_application
 
@@ -46,16 +46,10 @@ IV.	After clicking on launch the selected mission is sent to ground station and 
 
 ### View Images
 *	The inferred images stored in Amazon S3 can be viewed using view images option in Web application.
-*	Flight ID has to be entered and all the images corresponding to that Flight ID will show along with the information like which mission it belongs to, location of the image taken and also number of trash detections found in that image.
+*	Flight ID has to be entered and all the images corresponding to that Flight ID will shown along with the information like which mission it belongs to, location of the image taken and also number of trash detections found in that image.
 *	Tech stack:-ReatJs, Amazon S3, Rest API.
 *	Repository:-  https://github.com/batchu-29/Trash_detection_applicati 
-Create Mission
-*	A web page for selecting way points is opened 
-*	Where n number of waypoints can be selected for a specific area.
-*	A map will be rendered of searched location in which waypoints can be marked.
-*	Marked waypoints need to be added with there mission name, waypoint name, description and also index of that waypoint.
-*	The created mission will be stored in database once submit all is clicked.
- 
+
 
  ![Screenshot (100)](https://user-images.githubusercontent.com/98334366/230270958-6e45ef78-3c52-43b7-8a2b-affe549245e6.png)
 
